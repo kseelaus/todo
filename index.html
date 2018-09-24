@@ -22,15 +22,15 @@
 
         <div id="todo-lists">
             <div class="list">
-                <a href="list.html">Groceries</a>
+                <a href="list.html"><input type="checkbox" class="complete-item" onclick="completeListItem(this)">Groceries<button class="delete-item" onclick="deleteListItem(this.parentNode)"></button></a>
             </div>
 
             <div class="list">
-                <a href="list.html">Homework</a>
+                <a href="list.html"><input type="checkbox" class="complete-item" onclick="completeListItem(this)">Homework<button class="delete-item" onclick="deleteListItem(this.parentNode)"></button></a>
             </div>
 
             <div class="list">
-                <a href="list.html">Random Errands</a>
+                <a href="list.html"><input type="checkbox" class="complete-item" onclick="completeListItem(this)">Random Errands<button class="delete-item" onclick="deleteListItem(this.parentNode)"></button></a>
             </div>
             <button onclick="addNewList()">Add New List</button>
         </div>
